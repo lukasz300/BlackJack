@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <section class="blackjack" id="js_blackjack">
+            <div class="blackjack__modal hidden" id="js-modal">
+                <div class="message">
+                    <h2 id="js-message"></h2>
+                </div>
+            </div>
+            <div class="blackjack__settings hidden" id="js-settings">
+                <div class="blackjack__music">
+                    <button class="music__play" id="js-button_music_play"></button>
+                    <button class="music__mute" id="js-button_music_mute"></button>
+                </div>
+                <button class="settings__exit" id='js-setting-exit'></button>
+            </div>  
+            <div class="blackjack__main-menu game-layer" id="js_main-menu">
+                <button class="blackjack__button-new_game "id="js_button_new_game"></button>
+                <button class="blackjack__button-settings" id="js_button_settings"></button>
+            </div>
+            <div class="blackjack__game-board hidden" id="js_game-board">
+                <button class="setting__small" id="js-button_setting_small"></button>
+                <div class="blackjack__table" id="js_table">
+                    <h2>Player cards</h2>
+                    <div class="blackjack__cardsZone" id="js-playersCards"></div>
+                    <h2>Dealer cards</h2>
+                    <div class="blackjack__cardsZone" id="js-croupierCards"></div>
+                </div>
+                <div class="blackjack__stats" id="points">
+                    <h2 class="stats__header">Player poinst  -  <span id="js-playerPoints"></span></h2>
+                    <h2 class="stats__header">Dealer points  -  <span id="js-dealerPoints"></span></h2>
+                </div>
+                    <div class="blackjack__control">
+                        <button class="game__button hit" id="js-buttonHit"></button>    
+                        <button class="game__button stand" id="js-buttonStand"></button>    
+                    </div>    
+                </div>
+        </section>
+
+        <script src="/app/game.js" type="module"></script>
+    </body>
+</html>
