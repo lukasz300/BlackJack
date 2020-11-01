@@ -12,7 +12,7 @@
 }
 
 body{
-  background-image: url('./images/background.jpg');
+  background-image: url('../images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -28,7 +28,7 @@ h2{
 
 
     &__main-menu {
-      background-image: url('./images/main_menu.png');
+      background-image: url('../images/main_menu.png');
       background-size: cover;
       background-repeat: no-repeat;
       position: absolute;
@@ -48,7 +48,7 @@ h2{
       }
 
       &__settings{
-        background-image: url('./images/SETTINGS.png');
+        background-image: url('../images/SETTINGS.png');
         background-size: cover;
         background-repeat: no-repeat;
         position: absolute;
@@ -71,7 +71,7 @@ h2{
         }
         .music__play{
           background-color: transparent;
-          background-image: url('./images/button_mussic.png');
+          background-image: url('../images/button_mussic.png');
           background-repeat: no-repeat;
           background-size: contain;
           border: none;
@@ -81,12 +81,12 @@ h2{
           filter: drop-shadow(10px 10px 15px black);
           cursor: pointer;
             &:hover{
-              background-image: url('./images/button_mussic_hoover.png');
+              background-image: url('../images/button_mussic_hoover.png');
             }
         }
         .music__mute{
           background-color: transparent;
-          background-image: url('./images/button_mutte.png');
+          background-image: url('../images/button_mutte.png');
           background-repeat: no-repeat;
           background-size: contain;
           border: none;
@@ -96,14 +96,14 @@ h2{
           filter: drop-shadow(10px 10px 15px black);
           cursor: pointer;
             &:hover{
-              background-image: url('./images/button_mutte_hoover.png');
+              background-image: url('../images/button_mutte_hoover.png');
             }
         
           }
         
           .settings__exit{
             background-color: transparent;
-            background-image: url('./images/button_retturn.png');
+            background-image: url('../images/button_retturn.png');
             background-repeat: no-repeat;
             background-size: contain;
             border: none;
@@ -113,7 +113,7 @@ h2{
             filter: drop-shadow(10px 10px 15px black);
             cursor: pointer;
               &:hover{
-                background-image: url('./images/button_retturn--hover.png');
+                background-image: url('../images/button_retturn--hover.png');
               }
           
             }
@@ -121,7 +121,7 @@ h2{
   
       &__button-new_game{
         background-color: transparent;
-        background-image: url('./images/button_new-game.png');
+        background-image: url('../images/button_new-game.png');
         background-repeat: no-repeat;
         background-size: contain;
         border: none;
@@ -130,12 +130,12 @@ h2{
         filter: drop-shadow(10px 10px 15px black);
         cursor: pointer;
         &:hover{
-          background-image: url('./images/button_new-game--hover.png');
+          background-image: url('../images/button_new-game--hover.png');
         }
     }
     &__button-settings{
           background-color: transparent;
-          background-image: url('./images/button_settings.png');
+          background-image: url('../images/button_settings.png');
           background-repeat: no-repeat;
           background-size: contain;
           border: none;
@@ -144,7 +144,7 @@ h2{
           filter: drop-shadow(10px 10px 15px black);
           cursor: pointer;
           &:hover{
-            background-image: url('./images/button_settings--hover.png');
+            background-image: url('../images/button_settings--hover.png');
           }
       }
 
@@ -162,7 +162,7 @@ h2{
 
       .setting__small{
           background-color: transparent;
-          background-image: url('../images/button_small_settings.png');
+          background-image: url('.../images/button_small_settings.png');
           background-repeat: no-repeat;
           background-size: contain;
           border: none;
@@ -176,7 +176,7 @@ h2{
           filter: drop-shadow(10px 10px 15px black);
           cursor: pointer;
             &:hover{
-              background-image: url('./images/button_small_settings--hover.png');
+              background-image: url('../images/button_small_settings--hover.png');
             }
         
           
@@ -230,7 +230,7 @@ h2{
 
   .message{
     width: 100vw;
-    background-image: url('./images/background.jpg');
+    background-image: url('../images/background.jpg');
     background-size: cover;
     height: 30vh;
     display: flex;
@@ -273,17 +273,17 @@ justify-content: left;
   }
 
 .hit{
-  background-image: url('./images/button_hit.png');
+  background-image: url('../images/button_hit.png');
 }
 .hit:hover{
-  background-image: url('./images/button_hit--hover.png');
+  background-image: url('../images/button_hit--hover.png');
 }
 .stand{
-  background-image: url('./images/button_stand.png');
+  background-image: url('../images/button_stand.png');
   
 }
 .stand:hover{
-  background-image: url('./images/button_stand--hover.png');
+  background-image: url('../images/button_stand--hover.png');
 }
   .card{
   filter: drop-shadow(10px 10px 15px black);
@@ -293,278 +293,278 @@ justify-content: left;
 }
 
 .c2 {
-  background: url('./images/cards/C2.svg') no-repeat;
+  background: url('../images/cards/C2.svg') no-repeat;
   background-size: cover;
 }
 
 .c3 {
-  background: url('./images/cards/C3.svg') no-repeat;
+  background: url('../images/cards/C3.svg') no-repeat;
   background-size: cover;
 }
 
   .c4 {
-    background: url('./images/cards/C4.svg') no-repeat;
+    background: url('../images/cards/C4.svg') no-repeat;
     background-size: cover;
   }
 
   .c5 {
-    background: url('./images/cards/C5.svg') no-repeat;
+    background: url('../images/cards/C5.svg') no-repeat;
     background-size: cover;
   }
 
   .c6 {
-    background: url('./images/cards/C6.svg') no-repeat;
+    background: url('../images/cards/C6.svg') no-repeat;
     background-size: cover;
   }
 
   .c7 {
-    background: url('./images/cards/C7.svg') no-repeat;
+    background: url('../images/cards/C7.svg') no-repeat;
     background-size: cover;
   }
 
   .c8 {
-    background: url('./images/cards/C8.svg') no-repeat;
+    background: url('../images/cards/C8.svg') no-repeat;
     background-size: cover;
   }
 
   .c9 {
-    background: url('./images/cards/C9.svg') no-repeat;
+    background: url('../images/cards/C9.svg') no-repeat;
     background-size: cover;
   }
 
   .c10 {
-    background: url('./images/cards/C10.svg') no-repeat;
+    background: url('../images/cards/C10.svg') no-repeat;
     background-size: cover;
   }
 
   .cj {
-    background: url('./images/cards/CJ.svg') no-repeat;
+    background: url('../images/cards/CJ.svg') no-repeat;
     background-size: cover;
   }
 
   .cq {
-    background: url('./images/cards/CQ.svg') no-repeat;
+    background: url('../images/cards/CQ.svg') no-repeat;
     background-size: cover;
   }
 
   .ck {
-    background: url('./images/cards/CK.svg') no-repeat;
+    background: url('../images/cards/CK.svg') no-repeat;
     background-size: cover;
   }
 
   .ca {
-    background: url('./images/cards/CA.svg') no-repeat;
+    background: url('../images/cards/CA.svg') no-repeat;
     background-size: cover;
 }
 
 
 .c2 {
-  background: url('./images/cards/C2.svg') no-repeat;
+  background: url('../images/cards/C2.svg') no-repeat;
   background-size: cover;
 }
 
 .h2 {
-  background: url('./images/cards/H2.svg') no-repeat;
+  background: url('../images/cards/H2.svg') no-repeat;
   background-size: cover;
 }
 
 .h3 {
-  background: url('./images/cards/H3.svg') no-repeat;
+  background: url('../images/cards/H3.svg') no-repeat;
   background-size: cover;
 }
 
 .h4 {
-  background: url('./images/cards/H4.svg') no-repeat;
+  background: url('../images/cards/H4.svg') no-repeat;
   background-size: cover;
 }
 
 .h5 {
-  background: url('./images/cards/H5.svg') no-repeat;
+  background: url('../images/cards/H5.svg') no-repeat;
   background-size: cover;
 }
 
 .h6 {
-  background: url('./images/cards/H6.svg') no-repeat;
+  background: url('../images/cards/H6.svg') no-repeat;
   background-size: cover;
 }
 
 .h7 {
-  background: url('./images/cards/H7.svg') no-repeat;
+  background: url('../images/cards/H7.svg') no-repeat;
   background-size: cover;
 }
 
 .h8 {
-  background: url('./images/cards/H8.svg') no-repeat;
+  background: url('../images/cards/H8.svg') no-repeat;
   background-size: cover;
 }
 
 .h9 {
-  background: url('./images/cards/H9.svg') no-repeat;
+  background: url('../images/cards/H9.svg') no-repeat;
   background-size: cover;
 }
 
 .h10 {
-  background: url('./images/cards/H10.svg') no-repeat;
+  background: url('../images/cards/H10.svg') no-repeat;
   background-size: cover;
 }
 
 .hj {
-  background: url('./images/cards/HJ.svg') no-repeat;
+  background: url('../images/cards/HJ.svg') no-repeat;
   background-size: cover;
 }
 
 .hq {
-  background: url('./images/cards/HQ.svg') no-repeat;
+  background: url('../images/cards/HQ.svg') no-repeat;
   background-size: cover;
 }
 
 .hk {
-  background: url('./images/cards/HK.svg') no-repeat;
+  background: url('../images/cards/HK.svg') no-repeat;
   background-size: cover;
 }
 
 .ha {
-  background: url('./images/cards/HA.svg') no-repeat;
+  background: url('../images/cards/HA.svg') no-repeat;
   background-size: cover;
 }
 
 
 .c2 {
-  background: url('./images/cards/C2.svg') no-repeat;
+  background: url('../images/cards/C2.svg') no-repeat;
   background-size: cover;
 }
 
 .p2 {
-  background: url('./images/cards/P2.svg') no-repeat;
+  background: url('../images/cards/P2.svg') no-repeat;
   background-size: cover;
 }
 
 .p3 {
-  background: url('./images/cards/P3.svg') no-repeat;
+  background: url('../images/cards/P3.svg') no-repeat;
   background-size: cover;
 }
 
 .p4 {
-  background: url('./images/cards/P4.svg') no-repeat;
+  background: url('../images/cards/P4.svg') no-repeat;
   background-size: cover;
 }
 
 .p5 {
-  background: url('./images/cards/P5.svg') no-repeat;
+  background: url('../images/cards/P5.svg') no-repeat;
   background-size: cover;
 }
 
 .p6 {
-  background: url('./images/cards/P6.svg') no-repeat;
+  background: url('../images/cards/P6.svg') no-repeat;
   background-size: cover;
 }
 
 .p7 {
-  background: url('./images/cards/P7.svg') no-repeat;
+  background: url('../images/cards/P7.svg') no-repeat;
   background-size: cover;
 }
 
 .p8 {
-  background: url('./images/cards/P8.svg') no-repeat;
+  background: url('../images/cards/P8.svg') no-repeat;
   background-size: cover;
 }
 
 .p9 {
-  background: url('./images/cards/P9.svg') no-repeat;
+  background: url('../images/cards/P9.svg') no-repeat;
   background-size: cover;
 }
 
 .p10 {
-  background: url('./images/cards/P10.svg') no-repeat;
+  background: url('../images/cards/P10.svg') no-repeat;
   background-size: cover;
 }
 
 .pj {
-  background: url('./images/cards/PJ.svg') no-repeat;
+  background: url('../images/cards/PJ.svg') no-repeat;
   background-size: cover;
 }
 
 .pq {
-  background: url('./images/cards/PQ.svg') no-repeat;
+  background: url('../images/cards/PQ.svg') no-repeat;
   background-size: cover;
 }
 
 .pk {
-  background: url('./images/cards/PK.svg') no-repeat;
+  background: url('../images/cards/PK.svg') no-repeat;
   background-size: cover;
 }
 
 .pa {
-  background: url('./images/cards/PA.svg') no-repeat;
+  background: url('../images/cards/PA.svg') no-repeat;
   background-size: cover;
 }
 
 .c2 {
-  background: url('./images/cards/C2.svg') no-repeat;
+  background: url('../images/cards/C2.svg') no-repeat;
   background-size: cover;
 }
 
 .r2 {
-  background: url('./images/cards/R2.svg') no-repeat;
+  background: url('../images/cards/R2.svg') no-repeat;
   background-size: cover;
 }
 
 .r3 {
-  background: url('./images/cards/R3.svg') no-repeat;
+  background: url('../images/cards/R3.svg') no-repeat;
   background-size: cover;
 }
 
 .r4 {
-  background: url('./images/cards/R4.svg') no-repeat;
+  background: url('../images/cards/R4.svg') no-repeat;
   background-size: cover;
 }
 
 .r5 {
-  background: url('./images/cards/R5.svg') no-repeat;
+  background: url('../images/cards/R5.svg') no-repeat;
   background-size: cover;
 }
 
 .r6 {
-  background: url('./images/cards/R6.svg') no-repeat;
+  background: url('../images/cards/R6.svg') no-repeat;
   background-size: cover;
 }
 
 .r7 {
-  background: url('./images/cards/R7.svg') no-repeat;
+  background: url('../images/cards/R7.svg') no-repeat;
   background-size: cover;
 }
 
 .r8 {
-  background: url('./images/cards/R8.svg') no-repeat;
+  background: url('../images/cards/R8.svg') no-repeat;
   background-size: cover;
 }
 
 .r9 {
-  background: url('./images/cards/R9.svg') no-repeat;
+  background: url('../images/cards/R9.svg') no-repeat;
   background-size: cover;
 }
 
 .r10 {
-  background: url('./images/cards/R10.svg') no-repeat;
+  background: url('../images/cards/R10.svg') no-repeat;
   background-size: cover;
 }
 
 .rj {
-  background: url('./images/cards/RJ.svg') no-repeat;
+  background: url('../images/cards/RJ.svg') no-repeat;
   background-size: cover;
 }
 
 .rq {
-  background: url('./images/cards/RQ.svg') no-repeat;
+  background: url('../images/cards/RQ.svg') no-repeat;
   background-size: cover;
 }
 
 .rk {
-  background: url('./images/cards/RK.svg') no-repeat;
+  background: url('../images/cards/RK.svg') no-repeat;
   background-size: cover;
 }
 
 .ra {
-  background: url('./images/cards/RA.svg') no-repeat;
+  background: url('../images/cards/RA.svg') no-repeat;
   background-size: cover;
 }
