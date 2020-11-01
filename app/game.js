@@ -144,7 +144,7 @@ class Game extends Common{
         if (this.player.point == 21 && this.aiPlayer.point == 21 || this.player.point == this.aiPlayer.point){
             this.modal.showMessage('Draw')
         }
-        if (this.player.point > 21 || this.aiPlayer.point<=21 && this.aiPlayer.point>this.player.point ){
+        if (this.player.point > 21 || (this.aiPlayer.point<=21 && this.aiPlayer.point>this.player.point) ){
             this.modal.showMessage('You lose')
         }
         if(this.player.point==21 && !(this.aiPlayer.point==21) || this.player.point<21 && this.aiPlayer.point<this.player.point){
