@@ -6,7 +6,7 @@ export class Media {
     }
 
     playMusic(){
-        this.backgroundSound.url = ('/sounds/background.mp3');
+        this.backgroundSound.src = url('/sounds/background.mp3');
         this.backgroundSound.loop = true;
         this.backgroundSound.volume = 1;
         this.backgroundSound.autoplay = false;
