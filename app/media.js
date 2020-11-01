@@ -1,8 +1,8 @@
 export class Media {
     constructor(){
-       this.backgroundSound = new Audio('./sounds/background.mp3');
-       this.cardShuffle = new Audio('./sounds/cardshuffle.wav');
-       this.cardSlide = new Audio('./sounds/card_slide.wav')
+       this.backgroundSound = new Audio('../sounds/background.mp3');
+       this.cardShuffle = new Audio('../sounds/cardshuffle.wav');
+       this.cardSlide = new Audio('../sounds/card_slide.wav')
     }
 
     playMusic(){
