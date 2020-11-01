@@ -6,7 +6,7 @@ export class Media {
     }
 
     playMusic(){
-        this.backgroundSound.src = ('/sounds/background.mp3');
+        this.backgroundSound.url = ('/sounds/background.mp3');
         this.backgroundSound.loop = true;
         this.backgroundSound.volume = 1;
         this.backgroundSound.autoplay = false;
@@ -14,14 +14,14 @@ export class Media {
         }
 
     playCardShuffle(){
-        this.cardShuffle.src = ('/sounds/cardshuffle.wav');
+        this.cardShuffle.url = ('/sounds/cardshuffle.wav');
         this.cardShuffle.loop = false;
         this.cardShuffle.volume = 1;
         this.cardShuffle.autoplay = false;
         this.cardShuffle.play();
     }
     playCardSlide(){
-        this.cardSlide.src = ('/sounds/card_slide.wav');
+        this.cardSlide.url = ('/sounds/card_slide.wav');
         this.cardSlide.loop = false;
         this.cardSlide.volume = 1;
         this.cardSlide.autoplay = false;
