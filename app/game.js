@@ -90,7 +90,6 @@ class Game extends Common{
         const height = window.innerHeight;
         const scale = Math.min((0.8 *width)/640, (0.8 *height)/480);
         root.style.setProperty('--scale', scale);
-        console.log(scale);
     }
 
 
