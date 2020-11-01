@@ -151,10 +151,11 @@ h2{
   &__game-board{
     width: 90vw;
     height: 90vh;
+    transform: scale(var(--scale));
     margin: 5vh auto;
     border: 12px solid white;
-    border-radius: 30px;
-    font-size:  3.5vh;
+    border-radius: 20px;
+    font-size:  calc(18px *var(--scale));
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -202,7 +203,7 @@ h2{
       flex-wrap: nowrap;   
       margin-bottom: 5px;
       justify-content: space-evenly;
-      font-size: 3.5vh;
+      font-size: calc(20px *var(--scale));
     }
     &__control{
       height: 4vh;
@@ -240,7 +241,7 @@ h2{
     h2{
       color: white;
       filter: drop-shadow(10px 10px 10px black);
-      font-size: 8vh;
+      font-size: calc(60px *var(--scale));;
     }
   }
 
