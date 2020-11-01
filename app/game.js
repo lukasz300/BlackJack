@@ -99,7 +99,7 @@ class Game extends Common{
         this.table.showPlayerHands(card.el)
         this.playerPoints.textContent = this.player.calculatePoints();
         this.media.playCardSlide();
-        if(this.player.point >= 21){
+        if(this.player.point > 21){
             this.endGame()
         }
     
@@ -142,13 +142,13 @@ class Game extends Common{
         this.standButton.removeEventListener('click', () => this.dealerPlay(), true);
 
         if (this.player.point == 21 && this.aiPlayer.point == 21 || this.player.point == this.aiPlayer.point){
-            this.modal.showMessage('DRAW')
+            this.modal.showMessage('Draw')
         }
         if (this.player.point > 21 || this.aiPlayer.point<=21 && this.aiPlayer.point>this.player.point ){
-            this.modal.showMessage('YOU LOSE')
+            this.modal.showMessage('You lose')
         }
         if(this.player.point<=21 && !(this.player.point==21) & this.aiPlayer.point>21 || this.player.point<21 && this.aiPlayer.point<this.player.point){
-            this.modal.showMessage('YOU WON !!!')
+            this.modal.showMessage('You won !!!')
         }
         this.modal.showModal('true')
         this.modalClick.addEventListener('click', ()=> this.newRound());
