@@ -154,6 +154,7 @@ h2{
     margin: 5vh auto;
     border: 12px solid white;
     border-radius: 30px;
+    font-size:  3.5vh;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -162,7 +163,7 @@ h2{
 
       .setting__small{
           background-color: transparent;
-          background-image: url('../images/button_small_settings.png');
+          background-image: url('.../images/button_small_settings.png');
           background-repeat: no-repeat;
           background-size: contain;
           border: none;
@@ -178,8 +179,6 @@ h2{
             &:hover{
               background-image: url('../images/button_small_settings--hover.png');
             }
-        
-          
       }
     
     }
@@ -203,7 +202,7 @@ h2{
       flex-wrap: nowrap;   
       margin-bottom: 5px;
       justify-content: space-evenly;
-      font-size: 1.3rem;
+      font-size: 3.5vh;
     }
     &__control{
       height: 4vh;
@@ -240,9 +239,8 @@ h2{
     
     h2{
       color: white;
-      text-transform: uppercase;
       filter: drop-shadow(10px 10px 10px black);
-      font-size: 3rem;
+      font-size: 8vh;
     }
   }
 
@@ -266,21 +264,22 @@ justify-content: left;
   background-size: contain;
   border: none;
   width: 120px;
-  height: 60px;
+  height: 40px;
   filter: drop-shadow(10px 10px 15px black);
   cursor: pointer;
   margin: 0 30px;
+  transform: scale(var(--scale));
   }
 
 .hit{
   background-image: url('../images/button_hit.png');
+  
 }
 .hit:hover{
   background-image: url('../images/button_hit--hover.png');
 }
 .stand{
   background-image: url('../images/button_stand.png');
-  
 }
 .stand:hover{
   background-image: url('../images/button_stand--hover.png');
